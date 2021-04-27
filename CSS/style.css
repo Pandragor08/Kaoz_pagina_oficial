@@ -1,0 +1,54 @@
+.colorete{
+background-color: #8B21F5;
+}
+
+.hero-section {
+  background: url("../img/frt.jpg") fixed 50% no-repeat;
+  background-size: cover;
+  height: 40vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 39.9375em) {
+  .hero-section {
+
+    height: 20vh;
+
+  }
+}
+.fondo{
+  background-color: black;
+}
+.fondo a{
+  color: #FFFF;
+}
+.fondo a:hover{
+  color: #982CC9;
+}
+.ajuste{
+  margin-top: 100px;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste{
+    margin-top: 15px;
+  }
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.kaozz{
+  display: flex;
+  justify-content: center;
+  background-color: #FFFF;
+}
